@@ -1,0 +1,16 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.card-header {
+    font-size: 1.5rem;
+}
+
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+}
