@@ -82,3 +82,11 @@ document.getElementById("calculator-form").addEventListener("submit", function (
     document.getElementById("factors2").textContent = `Número 2: ${factoresToString(factorizar(num2))}`;
     document.getElementById("factors3").textContent = `Número 3: ${factoresToString(factorizar(num3))}`;
 });
+
+    // Mostrar resultados en la consola
+    console.log("Resultados:");
+    console.log(`Número 1: ${num1}, Factores: ${factoresToString(factorizar(num1))}`);
+    console.log(`Número 2: ${num2}, Factores: ${factoresToString(factorizar(num2))}`);
+    console.log(`Número 3: ${num3}, Factores: ${factoresToString(factorizar(num3))}`);
+    console.log(`MCD: ${mcd}`);
+    console.log(`MCM: ${mcm}`);
